@@ -1,0 +1,56 @@
+
+/* ==================
+    Tool Forms
+===================== */
+
+.form-tools {
+    display: grid;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 1.2em 2.2em 2em 2.2em;
+    margin-left: 0;
+  }
+  
+  .form__header {
+    margin-bottom: 0.5em;
+  }
+  
+  .form__label {
+    display: flex;
+  }
+  
+  .form__text {
+    all: unset;
+    display: block;
+    margin: .25em 1em 1em 0;
+    background: #fff;
+    width: 90%;
+    padding: .4em;
+  }
+  
+  .form__text:focus {
+    border: solid 1px #1d1d1d;
+  }
+  
+  .form__results {
+    margin: 2em 0 0.5em 0;
+  }
+  
+  .form__result {
+    margin-top: 0.2em;
+  }
+  
+  .result {
+    all: unset;
+    display: block;
+    margin: .25em 1em 1em 0;
+    background: #fff;
+    width: 30%;
+    height: 20px;
+    padding: 0.4em;
+  }

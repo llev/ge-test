@@ -1,0 +1,45 @@
+
+
+/* ==================
+    Content page styles
+===================== */
+
+.breadcrumbs {
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: 0;
+    /* text-decoration: none; */
+    padding: 15px 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    font-size: .9rem;
+    z-index: 1;
+  }
+  .breadcrumbs li {
+    padding-right: 8px;
+  }
+  
+  .breadcrumbs a:hover {
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posts {
+    margin-top: .96em;
+    padding: 1em 2.2em;
+    list-style: none;
+  }
+  
+  .posts h5 {
+    margin-top: 1.2em;
+  }
+  
+  .posts a {
+    font-size: 1rem;
+  }
+  
