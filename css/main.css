@@ -217,7 +217,11 @@ nav {
 /* Tools section */
 .tools {
   background: #eee;
-  padding: 1em 2.2em;
+  padding: 2em 2.2em 0em 2.2em;
+}
+
+.tools p {
+  margin: .2em 0 .8em 0;
 }
 
 .tools a {
@@ -234,7 +238,8 @@ nav {
   padding: 1.2em;
 }
 .contact p {
-  font-size: 2.5vw;
+  font-size: 1rem;
+  margin: .2em 0;
 }
 
 .cta {
@@ -282,7 +287,9 @@ nav {
   padding: 0;
 }
 
-
+.sector-sidebar {
+  display: none;
+}
 
 
 /* ==================
@@ -306,9 +313,9 @@ nav {
     grid-column: span 2;
   }
 
-  .sector-sidebar {
+  /* .sector-sidebar {
     display: none;
-  }
+  } */
 
   .col-all {
     grid-column: 1 / -1;
